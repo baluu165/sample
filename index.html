@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="gallery/vkrlogo.ico" rel="shortcut icon" type="image/png">
+	<title>Results | VVGV</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/formstyle1.css">
+<!--===============================================================================================-->
+<style>
+    .underlineHover:after {
+  display: block;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  #background-color: #56baed;
+  content: "";
+  transition: width 0.2s;
+}
+
+.underlineHover:hover {
+  color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+  width: 100%;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fbff00;
+    opacity: 60%;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fbff00;
+    opacity: 60%;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fbff00;
+    opacity: 60%;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fbff00;
+    opacity: 60%;
+}
+</style>
+</head>
+<body >
+<!----
+
+
+Website Team: 
+                    Mr. T.Mothilal, M.Tech
+                    Mr. K.Rupa Narendra Babu, M.Tech
+                    
+
+    ||\\              //||       |||||||||||\\
+    || \\            // ||       ||          ||
+    ||  \\          //  ||       ||          ||
+    ||   \\        //   ||       ||          ||
+    ||    \\      //    ||       ||          ||
+    ||     \\    //     ||       |||||||||||//
+    ||      \\  //      ||       ||   \\
+    ||       \\//       ||       ||    \\
+    ||                  ||       ||     \\
+    ||                  ||       ||      \\
+    ||                  ||       ||       \\
+    ||                  ||   []  ||        \\
+
+
+
+-->
+
+	<div class="limiter">
+		<div class="container-login100" style="">
+			<div class="wrap-login100 p-t-39 p-b-30">
+			   <div class="row">
+			        <div class="col-sm-2 col-md-2"></div>
+            <div class="col-sm-4 col-md-4">
+			    
+						<img src="gallery/vkrlogo.png" alt="vkrlogo" style="margin-left:15%;margin-top:10%;max-width:100%;"/>
+						<img src="gallery/collegename.png" alt="vkrlogo" style="max-width:100%;"/>
+					
+					</div>
+					<div class="col-sm-4 col-md-4">
+					    
+					    <div class="serviceBox">
+                        <div class="service-icon">
+                            <span><i class="fa fa-users"></i></span>
+                        </div>
+                       
+                        
+						
+                
+                    <div class="tab" role="tabpanel">
+                        <!-- Nav tabs -->
+                        
+                        <!-- Tab panes -->
+                        <div class="tab-content tabs">
+                            
+                                <form class="form-horizontal" method="post" action="logged.php">
+									<div class="form-group">
+                                        <label for="exampleInputEmail1" style="color:#ffe000;font-size:180%;margin-top:-9%">Results</label>
+                                        <label for="exampleInputEmail1" style="color:#ffe000;font-size:200%;margin-top:-9%">Log-in</label>
+                                    </div>
+								    <div class="form-group" style="margin-bottom:5%">
+                                        
+							                <i class="fa fa-user" style="color:white;font-size:30px"></i>
+						                  <input type="text" name="username"  placeholder="Username" class="form-control" id="exampleInputEmail1" required  />
+                                    </div>
+                                    <div class="form-group">
+                                         <i class="fa fa-lock" style="color:white;font-size:30px"></i>
+                                        <input type="password" name="password" placeholder="Password" class="form-control" id="exampleInputPassword1" required>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <button type="submit"  class="btn btn-success btn-sm btn-radius">Log-in</button>
+                                    </div>
+                                    <div class="form-group forgot-pass">
+                                        <button type="submit" class="btn btn-default" onclick="forgot()">forgot Username/password?</button>
+                                        <script>
+                                      function forgot() {
+                                          alert("Contact Website Administrator");
+                                                        }
+                                        </script>
+                                    </div>
+                                </form>
+                            
+                           
+                        </div>
+                    </div>
+                
+           
+                </div>
+					    
+					    
+					    <!--
+					    
+				<form class="login100-form validate-form"  method="post" action="logged.php">
+					
+
+					<span class="login100-form-title p-t-20 p-b-30" style="color:white;">
+						<img src="gallery/login1.png" alt="vkrlogo" width=200 height=68/>
+					</span>
+
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "Username is required">
+					    <!--
+					    <center>
+					    <input type="radio" name="type" value="others">&nbsp;&nbsp;<b style="color:#fbff00;">Staff</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					    <input type="radio" name="type" required value="student">&nbsp;&nbsp;<b style="color:#fbff00;">Student</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					    <input type="radio" name="type" value="hod">&nbsp;&nbsp;<b style="color:#fbff00;">Hod</b>
+					    </center>
+					    -->
+						<!--
+						<select name="type" id="login" class="input100" >
+                	      <option value="0">Select Who U are</option>
+                	      <option value="hod">HOD</option>
+                	      <option value="others">Staff</option>
+                	      <option value="student">Student</option>
+                	  </select>
+                	  --><!--
+					</div>
+					
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "Username is required">
+						<input class="input100" type="text" name="username" placeholder="Username">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-10" data-validate = "Password is required">
+						<input class="input100" type="password" name="password" placeholder="Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock"></i>
+						</span>
+					</div>
+
+					<div class="container-login100-form-btn p-t-10">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+					<div class="text-center w-full p-t-25 p-b-230">
+						<a onclick="forgot()" href="" class="underlineHover" style="color:#22ebff;font-weight: bold;" >
+							Forgot Username / Password?
+						</a>
+						<script>
+                          function forgot() {
+                              alert("Contact Website Administrator");
+                          }
+                          </script>
+					</div>
+
+				</form>
+			-->
+			</div>
+			 <div class="col-sm-2 col-md-2"></div>
+			 	
+			</div>
+			
+			
+			
+			</div>
+			<div style="color:white;">
+			    <p style="color:white;">Developed &amp; Maintained by <b style="color:#ffeb00;">Dept of CSE</b> </p>
+			</div>
+		</div>
+	
+	</div>
+	
+
+
+	
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
